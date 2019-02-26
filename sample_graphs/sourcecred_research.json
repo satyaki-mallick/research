@@ -1,0 +1,1560 @@
+[
+  {
+    "type": "sourcecred/graph",
+    "version": "0.4.0"
+  },
+  {
+    "nodes": [
+      [
+        "sourcecred",
+        "git",
+        "COMMIT",
+        "c3d9ce677b88d16a47db83ca2015c4191dac55ff"
+      ],
+      [
+        "sourcecred",
+        "git",
+        "COMMIT",
+        "c83da9bab12b94cfeee4daef73ca44e6872d0ee7"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "203589349",
+        "256708156"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "203589349",
+        "256708232"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "203589349",
+        "256708658"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "203589349",
+        "256708789"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "205238229",
+        "258059921"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "205242947",
+        "258063573"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206544344",
+        "259119696"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206544443",
+        "259119793"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206544771",
+        "259120055"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206545201",
+        "259120417"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206545300",
+        "259120498"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "COMMENT",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206545775",
+        "259120871"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "ISSUE",
+        "sourcecred",
+        "research",
+        "2"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "ISSUE",
+        "sourcecred",
+        "research",
+        "3"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "PULL",
+        "sourcecred",
+        "research",
+        "1"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REPO",
+        "sourcecred",
+        "research"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "203589349"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "205238229"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "205242947"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206544344"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206544443"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206544771"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206545201"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206545300"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "REVIEW",
+        "sourcecred",
+        "research",
+        "1",
+        "206545775"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "USERLIKE",
+        "USER",
+        "BrianLitwin"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "USERLIKE",
+        "USER",
+        "decentralion"
+      ],
+      [
+        "sourcecred",
+        "github",
+        "USERLIKE",
+        "USER",
+        "wchargin"
+      ]
+    ],
+    "edges": [
+      {
+        "srcIndex": 0,
+        "dstIndex": 1,
+        "address": [
+          "sourcecred",
+          "git",
+          "HAS_PARENT",
+          "2",
+          "COMMIT",
+          "c3d9ce677b88d16a47db83ca2015c4191dac55ff",
+          "2",
+          "COMMIT",
+          "c83da9bab12b94cfeee4daef73ca44e6872d0ee7"
+        ]
+      },
+      {
+        "srcIndex": 27,
+        "dstIndex": 14,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin",
+          "6",
+          "sourcecred",
+          "github",
+          "ISSUE",
+          "sourcecred",
+          "research",
+          "2"
+        ]
+      },
+      {
+        "srcIndex": 27,
+        "dstIndex": 15,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin",
+          "6",
+          "sourcecred",
+          "github",
+          "ISSUE",
+          "sourcecred",
+          "research",
+          "3"
+        ]
+      },
+      {
+        "srcIndex": 27,
+        "dstIndex": 19,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205238229"
+        ]
+      },
+      {
+        "srcIndex": 27,
+        "dstIndex": 20,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205242947"
+        ]
+      },
+      {
+        "srcIndex": 27,
+        "dstIndex": 6,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205238229",
+          "258059921"
+        ]
+      },
+      {
+        "srcIndex": 27,
+        "dstIndex": 7,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205242947",
+          "258063573"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 0,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "4",
+          "sourcecred",
+          "git",
+          "COMMIT",
+          "c3d9ce677b88d16a47db83ca2015c4191dac55ff"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 1,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "4",
+          "sourcecred",
+          "git",
+          "COMMIT",
+          "c83da9bab12b94cfeee4daef73ca44e6872d0ee7"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 21,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544344"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 22,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544443"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 23,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544771"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 24,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545201"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 25,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545300"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 26,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545775"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 8,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544344",
+          "259119696"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 9,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544443",
+          "259119793"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 10,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544771",
+          "259120055"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 11,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545201",
+          "259120417"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 12,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545300",
+          "259120498"
+        ]
+      },
+      {
+        "srcIndex": 28,
+        "dstIndex": 13,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545775",
+          "259120871"
+        ]
+      },
+      {
+        "srcIndex": 29,
+        "dstIndex": 18,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349"
+        ]
+      },
+      {
+        "srcIndex": 29,
+        "dstIndex": 2,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708156"
+        ]
+      },
+      {
+        "srcIndex": 29,
+        "dstIndex": 3,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708232"
+        ]
+      },
+      {
+        "srcIndex": 29,
+        "dstIndex": 4,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708658"
+        ]
+      },
+      {
+        "srcIndex": 29,
+        "dstIndex": 5,
+        "address": [
+          "sourcecred",
+          "github",
+          "AUTHORS",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708789"
+        ]
+      },
+      {
+        "srcIndex": 14,
+        "dstIndex": 17,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "6",
+          "sourcecred",
+          "github",
+          "ISSUE",
+          "sourcecred",
+          "research",
+          "2"
+        ]
+      },
+      {
+        "srcIndex": 15,
+        "dstIndex": 17,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "6",
+          "sourcecred",
+          "github",
+          "ISSUE",
+          "sourcecred",
+          "research",
+          "3"
+        ]
+      },
+      {
+        "srcIndex": 16,
+        "dstIndex": 17,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1"
+        ]
+      },
+      {
+        "srcIndex": 18,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349"
+        ]
+      },
+      {
+        "srcIndex": 19,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205238229"
+        ]
+      },
+      {
+        "srcIndex": 20,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205242947"
+        ]
+      },
+      {
+        "srcIndex": 21,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544344"
+        ]
+      },
+      {
+        "srcIndex": 22,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544443"
+        ]
+      },
+      {
+        "srcIndex": 23,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544771"
+        ]
+      },
+      {
+        "srcIndex": 24,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545201"
+        ]
+      },
+      {
+        "srcIndex": 25,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545300"
+        ]
+      },
+      {
+        "srcIndex": 26,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "7",
+          "sourcecred",
+          "github",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545775"
+        ]
+      },
+      {
+        "srcIndex": 2,
+        "dstIndex": 18,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708156"
+        ]
+      },
+      {
+        "srcIndex": 3,
+        "dstIndex": 18,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708232"
+        ]
+      },
+      {
+        "srcIndex": 4,
+        "dstIndex": 18,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708658"
+        ]
+      },
+      {
+        "srcIndex": 5,
+        "dstIndex": 18,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "203589349",
+          "256708789"
+        ]
+      },
+      {
+        "srcIndex": 6,
+        "dstIndex": 19,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205238229",
+          "258059921"
+        ]
+      },
+      {
+        "srcIndex": 7,
+        "dstIndex": 20,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "205242947",
+          "258063573"
+        ]
+      },
+      {
+        "srcIndex": 8,
+        "dstIndex": 21,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544344",
+          "259119696"
+        ]
+      },
+      {
+        "srcIndex": 9,
+        "dstIndex": 22,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544443",
+          "259119793"
+        ]
+      },
+      {
+        "srcIndex": 10,
+        "dstIndex": 23,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206544771",
+          "259120055"
+        ]
+      },
+      {
+        "srcIndex": 11,
+        "dstIndex": 24,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545201",
+          "259120417"
+        ]
+      },
+      {
+        "srcIndex": 12,
+        "dstIndex": 25,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545300",
+          "259120498"
+        ]
+      },
+      {
+        "srcIndex": 13,
+        "dstIndex": 26,
+        "address": [
+          "sourcecred",
+          "github",
+          "HAS_PARENT",
+          "9",
+          "sourcecred",
+          "github",
+          "COMMENT",
+          "REVIEW",
+          "sourcecred",
+          "research",
+          "1",
+          "206545775",
+          "259120871"
+        ]
+      },
+      {
+        "srcIndex": 16,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "MENTIONS_AUTHOR",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion"
+        ]
+      },
+      {
+        "srcIndex": 16,
+        "dstIndex": 0,
+        "address": [
+          "sourcecred",
+          "github",
+          "MERGED_AS",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1"
+        ]
+      },
+      {
+        "srcIndex": 0,
+        "dstIndex": 27,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "4",
+          "sourcecred",
+          "git",
+          "COMMIT",
+          "c3d9ce677b88d16a47db83ca2015c4191dac55ff",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "BrianLitwin"
+        ]
+      },
+      {
+        "srcIndex": 0,
+        "dstIndex": 28,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "4",
+          "sourcecred",
+          "git",
+          "COMMIT",
+          "c3d9ce677b88d16a47db83ca2015c4191dac55ff",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion"
+        ]
+      },
+      {
+        "srcIndex": 0,
+        "dstIndex": 29,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "4",
+          "sourcecred",
+          "git",
+          "COMMIT",
+          "c3d9ce677b88d16a47db83ca2015c4191dac55ff",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin"
+        ]
+      },
+      {
+        "srcIndex": 0,
+        "dstIndex": 16,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "4",
+          "sourcecred",
+          "git",
+          "COMMIT",
+          "c3d9ce677b88d16a47db83ca2015c4191dac55ff",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1"
+        ]
+      },
+      {
+        "srcIndex": 15,
+        "dstIndex": 28,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "6",
+          "sourcecred",
+          "github",
+          "ISSUE",
+          "sourcecred",
+          "research",
+          "3",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion"
+        ]
+      },
+      {
+        "srcIndex": 15,
+        "dstIndex": 29,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "6",
+          "sourcecred",
+          "github",
+          "ISSUE",
+          "sourcecred",
+          "research",
+          "3",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin"
+        ]
+      },
+      {
+        "srcIndex": 16,
+        "dstIndex": 28,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "decentralion"
+        ]
+      },
+      {
+        "srcIndex": 16,
+        "dstIndex": 29,
+        "address": [
+          "sourcecred",
+          "github",
+          "REFERENCES",
+          "6",
+          "sourcecred",
+          "github",
+          "PULL",
+          "sourcecred",
+          "research",
+          "1",
+          "5",
+          "sourcecred",
+          "github",
+          "USERLIKE",
+          "USER",
+          "wchargin"
+        ]
+      }
+    ]
+  }
+]
