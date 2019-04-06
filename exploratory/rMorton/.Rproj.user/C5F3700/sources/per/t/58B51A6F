@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1554229290615.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2359251779",
+    "id" : "58B51A6F",
+    "lastKnownWriteTime" : 1554228486,
+    "last_content_update" : 1554228486,
+    "path" : "~/GitHub/research/exploratory/rMorton/dev_eda.R",
+    "project_path" : "dev_eda.R",
+    "properties" : {
+        "cursorPosition" : "7,118",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
