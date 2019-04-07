@@ -18,7 +18,7 @@ class graphNet {
   	
 		// define dimensions
 		this.width = this.element.offsetWidth;
-		this.height = 640; //this.element.offsetHeight;
+		this.height = 1960; //this.element.offsetHeight;
 		
 		// set up parent element and SVG
 		this.element.innerHTML = '';
@@ -28,8 +28,9 @@ class graphNet {
 		this.chart = this.svg
 			.append("g")
 			.attr("transform", "translate(" + this.width / 2 + "," + this.height / 2 + ")")
-		// set up svg defs
-		this.chart.append("defs").append("marker")
+		
+    // set up svg defs
+    this.chart.append("defs").append("marker")
             .attr("id", "arrow")
             .attr("viewBox", "0 -3 10 10")
             .attr("refX", 18)
@@ -53,6 +54,7 @@ class graphNet {
     
 		//this.setColorScales();
 		this.nodeColor = d3.scaleOrdinal(d3.schemeCategory10);
+    this.edgeColor = d3.scaleOrdinal(d3.schemeCategory10);
 		// update chart
 		this.update(this.data);
 	}
@@ -61,16 +63,23 @@ class graphNet {
 		
 		//preserve context for functions
 		const that = this;
-		console.log(this.data);
     
 		//define variables from data
-		const links = data.edges;
-		const nodes = data.nodes;
+		const links = data[this.mapping.edges];
+    if(that.mapping.source){
+    	console.log("link rename")
+    	links.forEach(function(d){
+        d.source = d[that.mapping.source];
+        d.target = d[that.mapping.target];
+    	});
+    }
+    console.log(links);
+		const nodes = data[this.mapping.nodes];
 		
 		// define simulation object
 		const simulation = d3.forceSimulation(nodes)
-			.force("charge", d3.forceManyBody().strength(-1500))
-			.force("link", d3.forceLink(links).distance(250))
+			.force("charge", d3.forceManyBody().strength(-150))
+			.force("link", d3.forceLink(links).distance(2))
 			.force("collide", d3.forceCollide().radius(2))
 			.force("x", d3.forceX())
 			.force("y", d3.forceY())
