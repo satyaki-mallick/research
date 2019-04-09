@@ -232,9 +232,9 @@ shiny::fluidRow(shiny::column(12, (shinydashboard::box(node_tokens_graph, width 
 
 ## Edge Word Tokens
 
-While the node types appear to clearly identify all the important information about edges, a text based analysis was employed to confirm that edge types are the predominant data stored in the edges. In addition, user names begin to show up more dominantly in edges than in nodes. 
+While the edge types appear to clearly identify all the important information about edges, a text based analysis was employed to confirm that edge types are the predominant data stored in the edges. In addition, user names begin to show up more dominantly in edges than in nodes. 
 
-The text analysis tokenized the words in the edge data and generated word counts across all edge The top `r format(nrow(edge_tokens), big.mark = ",")` words are are summarized in the chart below.
+The text analysis tokenized the words in the edge data and generated word counts across all edges. The top `r format(nrow(edge_tokens), big.mark = ",")` words are are summarized in the chart below.
 
 ```{r}
 shiny::fluidRow(shiny::column(12, (shinydashboard::box(edge_tokens_graph, width = "90%"))))
