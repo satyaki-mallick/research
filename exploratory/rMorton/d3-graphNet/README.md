@@ -1,4 +1,4 @@
-# d3-foo
+# d3-graphNet
 
 Source Cred Network Graph
 
