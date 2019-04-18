@@ -9,6 +9,7 @@ class graphNet {
 		const opts = {
 			element: document.getElementById("sourceCred"),
 			data: myData,
+      score: myScores,
 			mapping: {
 				nodes: 'nodes',
 				nodeLable: 1,
@@ -27,6 +28,7 @@ class graphNet {
 		// load arguments from config object
 		this.element = opts.element;
 		this.data = opts.data;
+		this.scores = opts.scores;
 		this.mapping = opts.mapping;
 		this.options = opts.options;
 		
@@ -40,7 +42,7 @@ class graphNet {
 		
 		// define dimensions
 		this.width = this.element.offsetWidth;
-		this.height = 640; //this.element.offsetHeight;
+		this.height = 1000; //this.element.offsetHeight;
 		
 		// set up parent element and SVG
 		this.element.innerHTML = '';
@@ -89,7 +91,7 @@ class graphNet {
 		
 		/// define simulation object
 		this.simulation = d3.forceSimulation(nodes)
-			.force("charge", d3.forceManyBody().strength(-1500))
+			.force("charge", d3.forceManyBody().strength(-1))
 			.force("link", d3.forceLink(links).distance(100))
 			.force("collide", d3.forceCollide().radius(2))
 			.force("x", d3.forceX())
@@ -163,7 +165,7 @@ class graphNet {
 			})
 			.attr('r', function(d){
 				if(that.mapping.nodeSize){
-					return d[that.mapping.nodeSize];
+					return Math.min(75,Math.max(1, that.scores[d.index] * 1000));
 				} else {
 					return 5;
 				}
@@ -189,7 +191,7 @@ class graphNet {
 				if(that.mapping.edgeSize){
 					return d[that.mapping.edgeSize];
 				} else {
-					return '#000';
+					return 0.25;
 				}
 			})
 			.attr('stroke', function(d){
@@ -207,7 +209,7 @@ class graphNet {
 		
 		function mouseOver(){
 			var data = d3.select(this).data()[0];
-			var textDisplay = data[that.mapping.nodeLabel]
+			var textDisplay = data[that.mapping.nodeLabel] + '-' + that.scores[data.index].toFixed(3);
 			
 			that.tooltip
 			  .style("left", (d3.event.pageX - 10) + 'px')
